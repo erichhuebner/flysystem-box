@@ -1,5 +1,5 @@
 {
-    "name": "zburke/flysystem-box",
+    "name": "erichhuebner/flysystem-box",
     "description": "Flysystem adapter for Box",
     "license": "MIT",
     "authors": [
@@ -10,11 +10,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "league/flysystem": "~1.0",
-        "adammbalogh/box-sdk": "@stable"
+        "league/flysystem": ">=1.0",
+        "erichhuebner/box-sdk": "@stable"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8"
+        "phpunit/phpunit": ">=4.8"
     },
     "autoload": {
         "psr-4": {
